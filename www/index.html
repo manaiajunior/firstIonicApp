@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+  </head>
+
+  <body ng-app="starter">
+    <ion-content class="padding">
+      <div style="margin: 0 auto; max-width: 150px; margin-top: 10%">
+        <img style="max-width: 100%;" src="img/logo.png"/>
+      </div>
+      <div style="margin-top: 15%;">
+        <button class="button icon-left ion-social-facebook button-block button-positive">
+          Entrar com o Facebook
+        </button>
+        <p style="color: white; text-align: center;">Não se preocupe não postamos nada sem sua permissão.</p>
+      </div>
+      <div style="margin-top: 20%;">
+        <p style="color: white; text-align: center; font-weight: bold;">Não tem Facebook?</p>
+        <button class="button button-block button-energized">
+          Acessar com e-mail
+        </button>
+      </div>
+      <p style="text-align: center; margin-top: 18%;">
+        <a href="#" style="color: white; font-weight: bold;">Não consegue acessar sua conta?</a>
+      </p>
+    </ion-content>
+  </body>
+</html>
